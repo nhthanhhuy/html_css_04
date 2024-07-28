@@ -488,7 +488,7 @@ a {
 
 .tab__list {
     position: relative;
-    display: flex;
+    display: inline-flex;
     column-gap: 56px;
 }
 
@@ -512,7 +512,7 @@ a {
 
 .tab__item {
     position: relative;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 10px;
     padding-bottom: 10px;
