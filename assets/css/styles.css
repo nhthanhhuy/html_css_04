@@ -709,3 +709,140 @@ a {
     font-size: 1.6rem;
     font-weight: 500;
 }
+
+/* Staff */
+
+.staff {
+    padding: 130px 0;
+}
+
+.staff__desc,
+.staff__heading {
+    text-align: center;
+}
+
+.staff__desc {
+    color: #5e6085;
+    font-family: Sora, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.staff__heading {
+    margin-top: 15px;
+    color: #000958;
+    font-family: Sora, sans-serif;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.19;
+}
+
+.staff__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 35px;
+    margin-top: 60px;
+}
+
+.staff-item__img-wrap {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0 auto;
+    width: 234px;
+    height: 299px;
+}
+
+.staff-item__img-wrap::after {
+    content: "";
+    position: absolute;
+    height: 266px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 129.5px;
+    z-index: -1;
+}
+
+.staff-item__img-wrap::before {
+    position: absolute;
+}
+
+.staff-item:nth-child(1) .staff-item__img-wrap::before {
+    content: url(../image/staff-decor-1.svg);
+}
+
+.staff-item:nth-child(2) .staff-item__img-wrap::before {
+    content: url(../image/staff-decor-2.svg);
+    top: 30px;
+}
+
+.staff-item:nth-child(3) .staff-item__img-wrap::before {
+    content: url(../image/staff-decor-3.svg);
+}
+
+.staff-item:nth-child(4) .staff-item__img-wrap::before {
+    content: url(../image/staff-decor-4.svg);
+    top: 30px;
+}
+
+.staff-item:nth-child(1) .staff-item__img-wrap::after {
+    background: #90ccff;
+}
+
+.staff-item:nth-child(2) .staff-item__img-wrap::after {
+    background: #ff997e;
+}
+
+.staff-item:nth-child(3) .staff-item__img-wrap::after {
+    background: #fabf3e;
+}
+
+.staff-item:nth-child(4) .staff-item__img-wrap::after {
+    background: #5bd6e2;
+}
+
+.staff-item_img {
+    width: 100%;
+    border-radius: 129.5px;
+}
+
+.staff-item__title {
+    margin-top: 29px;
+    color: #656689;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1;
+}
+
+.staff-item__name {
+    margin-top: 14px;
+    color: #000958;
+    text-align: center;
+    font-family: Sora, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.staff-cta-view-all-team {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.staff__btn-view-all-team {
+    width: 193px;
+    height: 56px;
+    border-radius: 31px;
+    border: 1px solid #ff5b2e;
+    color: #ff5b2e;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.staff__btn-view-all-team:hover {
+    opacity: 0.6;
+    box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+}
