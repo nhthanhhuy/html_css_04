@@ -1047,10 +1047,17 @@ a {
     cursor: pointer;
 }
 
+.review__list {
+    display: flex;
+
+}
+
 .review-item {
     display: flex;
     align-items: center;
     column-gap: 115px;
+    flex-shrink: 0;
+    width: 100%;
 }
 
 .review-item__media {
@@ -1067,6 +1074,10 @@ a {
     height: 82%;
     background: #ffda54;
     border-radius: inherit;
+}
+
+.review__content {
+    overflow: hidden;
 }
 
 .review-item__img {
