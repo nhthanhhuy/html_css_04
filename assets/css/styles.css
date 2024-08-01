@@ -1049,7 +1049,6 @@ a {
 
 .review__list {
     display: flex;
-
 }
 
 .review-item {
@@ -1146,4 +1145,49 @@ a {
     height: 8px;
     border-radius: 999px;
     background: #ff5b2e;
+}
+
+/* Blog */
+
+.blog {
+    padding: 78px 0;
+}
+
+.blog__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog_heading {
+    color: #000958;
+    font-family: Sora, sans-serif;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.19;
+}
+
+.blog__desc {
+    color: #656689;
+    font-size: 1.6rem;
+    line-height: 1.87;
+}
+
+.blog__info {
+    width: 350px;
+    margin-right: 73px;
+}
+
+.btn__blog {
+    margin-top: 24px;
+    width: 182px;
+    border-radius: 31px;
+    border: 1px #ff5b2e99 solid;
+    color: #ff5b2e;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.btn__blog:hover {
+    box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
 }
